@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    height: 64px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-sub-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: #474747;
+    font-size: 18 ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-two{
+    display: flex;
+
+}
+.btn-contact{
+    height: 64px;
+    width: 160px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+
+
+}
+
+/* main-setion */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* About section style */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    text-align: center;
+    columns: #757575;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+
+}
+
+.info{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 20px;
+}
+
+.info-up{
+    color: #757575;
+    font-weight: 400;
+}
+.info-down{
+    color: #474747;
+    font-weight: 700;
+}
