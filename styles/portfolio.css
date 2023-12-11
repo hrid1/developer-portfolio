@@ -102,6 +102,7 @@ main{
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    color: #181818;
 
 }
 .section-title{
@@ -109,11 +110,12 @@ main{
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: 700;
+    color: #181818;
 
 }
 .section-description{
     text-align: center;
-    columns: #757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400px;
     margin-bottom: 30px;
@@ -134,4 +136,128 @@ main{
 .info-down{
     color: #474747;
     font-weight: 700;
+}
+
+.what-do{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+
+}
+.what-do-detail{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 50px;
+}
+
+/* skill */
+
+.skill-cotainer{
+    display: flex;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 33px;
+}
+.skill-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+.skill-description{
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.sumarry-resume{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 110px;
+
+}
+.two-list{
+    width: 511px;
+    height: 175px;
+    
+}
+.resume-div{
+    display: flex;
+    justify-content:space-between;
+    color: #474747;
+
+}
+.my-edu,.my-exp{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.quality{
+    font-size: 25px;
+    font-weight: 700;
+}
+.line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.another-btn{
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #FFF ;
+    font-size: 2-px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.div-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* contact styles */
+
+.contact-message{
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3;
+    padding: 130px 200px;
+
+}
+.section-title-f, .section-details{
+    padding-bottom: 30px;
+} 
+
+.icon{
+    padding-right: 24px;
+}
+
+
+.message input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px ;
 }
